@@ -4,7 +4,7 @@
 #include <iostream>
 #include <filesystem>
 
-int color_main() {
+int main() {
     std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
 
     // glfw: initialize and configure
